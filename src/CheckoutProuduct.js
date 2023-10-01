@@ -11,6 +11,7 @@ function CheckoutProuduct( props ) {
         });
     };
     return (
+        //proudct to show
         <div className='checkoutproduct'>
             <img className = 'checkoutproductimg' src={props.image}
                 alt='image not found'
